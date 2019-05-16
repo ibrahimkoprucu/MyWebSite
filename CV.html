@@ -1,170 +1,135 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+<head>
     <meta charset="utf-8" />
-    <title>My Personal Site</title>
+    <title>My CV</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous" />
+</head>
 
-    <!--  <link rel="stylesheet" href="./css/style.css">
- -->
-  </head>
-
-  <body class="mainBody">
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-          <a class="navbar-brand" href="index.html">İbrahim Köprücü</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarsExampleDefault"
-            aria-controls="navbarsExampleDefault"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+<body class="mainBody">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html">İbrahim Köprücü</a>
+        <button class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarsExampleDefault"
+                aria-controls="navbarsExampleDefault"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-    
-          <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="CV.html">My CV</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="contact-me.html">Contact Me</a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="CV.html">My CV</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="contact-me.html">Contact Me</a>
+                </li>
             </ul>
-          </div>
-        </nav>
+        </div>
+    </nav>
     <div class="container">
-      <div class="row mt-5">
-        <div class="col-md-2">
-            <img
-            class="myPhoto"
-            src="./images/photo.jpg"
-            alt="My Profile Photo"          />
+        <div class="row mt-5">
+            <div class="col-md-2">
+                <img class="myPhoto"
+                     src="./images/photo.jpg"
+                     alt="My Profile Photo" />
 
+            </div>
+            <div class="col-md-10">
+                <h1 class="name">İbrahim Köprücü</h1>
+                <h2>
+                    Student at
+                    <a href="https://maltepe.edu.tr/"><em>Maltepe University</em></a>
+                </h2>
+                <p>Skilled Full-Stack Web Developer</p>
+            </div>
         </div>
-        <div class="col-md-10">
-            <h1>İbrahim Köprücü</h1>
-            <h2>
-              Student at
-              <a href="https://maltepe.edu.tr/"><em>Maltepe University</em></a>
-            </h2>
-            <p>Skilled Web Developer</p>
-        </div>
-      </div>
 
-      <hr />
-      <h3>Core Skills</h3>
-      <ul>
-        <li>Fundamentals of Programming</li>
-        <li>Data Structures and Algorithms</li>
-        <li>Web Development</li>
-      </ul>
-      <hr />
-      <h3>Programming Languages</h3>
-      <ul>
-        <li>C#</li>
-        <li>JavaScript</li>
-        <li>Java</li>
-        <li>C++</li>
-        <li>T-SQL</li>
-        <li>Html</li>
-        <li>CSS</li>
-      </ul>
-      <hr />
-      <h3>Work Experiences</h3>
-      <table class="table table-hover table-responsive table-striped">
-        <thead>
-          <tr>
-            <th>Dates</th>
-            <th>Work</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>18-03-2019</td>
-            <td>Student at Maltepe University</td>
-          </tr>
-          <tr>
-            <td>18-03-2019</td>
-            <td>Student at Maltepe University</td>
-          </tr>
-        </tbody>
-      </table>
-      <hr />
-      <h3>Skills</h3>
-      <table class="tableThree ">
-        <tr>
-          <td>
-            <table class="tableThree1 ">
-              <tr>
-                <td>.Net Development</td>
-                <td>★★★★★</td>
-              </tr>
-              <tr>
-                <td>Web Development</td>
-                <td>★★★★★</td>
-              </tr>
-              <tr>
-                <td>AI Development</td>
-                <td>★★★★★</td>
-              </tr>
-              <tr>
-                <td>Mobile Development</td>
-                <td>★★★★★</td>
-              </tr>
-            </table>
-          </td>
-          <td>
-            <table class="tableThree2 ">
-              <tr>
-                <td>.Net Development</td>
-                <td>★★★★</td>
-              </tr>
-              <tr>
-                <td>Web Development</td>
-                <td>★★★★★</td>
-              </tr>
-              <tr>
-                <td>AI Development</td>
-                <td>★★★★★</td>
-              </tr>
-              <tr>
-                <td>Mobile Development</td>
-                <td>★★★★★</td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
-
-      <hr />
-      <footer>
-        <table>
-          <tr>
-            <td>
-              <p><a href="">My Hobbies</a></p>
-            </td>
-            <td>
-              <p><a href="contact-me.html" target="_blank">Contact Me</a></p>
-            </td>
-          </tr>
+        <hr />
+        <h3>Core Skills</h3>
+        <ul>
+            <li>Fundamentals of Programming</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Web Development</li>
+        </ul>
+        <hr />
+        <h3>Programming Languages</h3>
+        <ul>
+            <li>C#</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>T-SQL</li>
+            <li>Html</li>
+            <li>CSS</li>
+        </ul>
+        <hr />
+        <h3>Work Experiences</h3>
+        <table class="table table-hover table-responsive table-striped">
+            <thead>
+                <tr>
+                    <th>Dates</th>
+                    <th>Work</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>18-03-2019</td>
+                    <td>Student at Maltepe University</td>
+                </tr>
+                <tr>
+                    <td>18-03-2019</td>
+                    <td>Student at Maltepe University</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr />
+        <h3>Skills</h3>
+        <table class="tableThree ">
+            <tr>
+                <td>
+                    <table class="tableThree1 ">
+                        <tr>
+                            <td>.Net Development</td>
+                            <td>★★★★★</td>
+                        </tr>
+                        <tr>
+                            <td>Web Development</td>
+                            <td>★★★★★</td>
+                        </tr>
+                        <tr>
+                            <td>AI Development</td>
+                            <td>★★★★★</td>
+                        </tr>
+                        <tr>
+                            <td>Mobile Development</td>
+                            <td>★★★★★</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
         </table>
 
-        <p>🥦</p>
-      </footer>
+        <hr />
+        <footer>
+            <h3>My Hobbies</h3>
+            <ul>
+                <li>Table Tennis</li>
+                <li>FootBall</li>
+                <li>Trekking</li>
+                <li>Archeology</li>
+            </ul>
+        </footer>
     </div>
-  </body>
+</body>
 </html>
